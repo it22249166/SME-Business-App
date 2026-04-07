@@ -1,0 +1,141 @@
+{
+  "app": { "name": "SME කළමනාකරු", "tagline": "ඔබේ ව්‍යාපාරය වර්ධනය කරන්න" },
+  "businessTypes": {
+    "shop": "කඩය", "salon": "සැලොන්", "pharmacy": "ෆාමසිය",
+    "boutique": "බූටීකය", "cafe": "කෆේ"
+  },
+  "nav": {
+    "dashboard": "ප්‍රධාන පිටුව", "orders": "ඇණවුම්", "inventory": "තොගය",
+    "customers": "ගනුදෙනුකරුවන්", "promotions": "ප්‍රවර්ධන", "payments": "ගෙවීම්",
+    "settings": "සැකසුම්"
+  },
+  "onboarding": {
+    "selectLanguage": "භාෂාව තෝරන්න",
+    "selectBusiness": "ඔබ කරන ව්‍යාපාරය කුමක්ද?",
+    "enterName": "ඔබේ ව්‍යාපාර නාමය කුමක්ද?",
+    "namePlaceholder": "උදා: නිමල්ගේ දෘඩාංග කඩය",
+    "letsGo": "ආරම්භ කරමු!",
+    "welcome": "SME කළමනාකරු වෙත සාදරයෙන් පිළිගනිමු"
+  },
+  "dashboard": {
+    "title": "ප්‍රධාන පිටුව",
+    "todayRevenue": "අද ආදායම",
+    "totalOrders": "අද ඇණවුම්",
+    "lowStockItems": "අඩු තොග",
+    "pendingPayments": "ගෙවීම් ඉල්ලීම්",
+    "recentOrders": "මෑත ඇණවුම්",
+    "stockAlerts": "තොග අනතුරු ඇඟවීම්",
+    "followUps": "පසු විපරම් මතක් කිරීම්",
+    "viewAll": "සියල්ල බලන්න",
+    "noAlerts": "සියලු තොග මට්ටම් හොඳයි",
+    "noFollowUps": "අද පසු විපරම් නැත"
+  },
+  "orders": {
+    "title": "ඇණවුම්",
+    "newOrder": "නව ඇණවුම",
+    "orderNumber": "ඇණවුම් #",
+    "customer": "ගනුදෙනුකරු",
+    "total": "එකතුව",
+    "status": "තත්ත්වය",
+    "paymentStatus": "ගෙවීම",
+    "date": "දිනය",
+    "notes": "සටහන්",
+    "selectCustomer": "ගනුදෙනුකරු තෝරන්න (විකල්ප)",
+    "guestCustomer": "සෙමෙස්ත / අමුත්තා",
+    "addItem": "අයිතම එකතු කරන්න",
+    "selectItem": "අයිතමය තෝරන්න",
+    "quantity": "ප්‍රමාණය",
+    "discount": "වට්ටම",
+    "subtotal": "උප එකතුව",
+    "grandTotal": "මුළු එකතුව",
+    "paymentMethod": "ගෙවීම් ක්‍රමය",
+    "createOrder": "ඇණවුම සාදන්න",
+    "noOrders": "ඇණවුම් නැත",
+    "statuses": {
+      "pending": "අපේක්ෂිත", "confirmed": "තහවුරු කළ", "in_progress": "සිදු කෙරෙමින්",
+      "completed": "සම්පූර්ණ", "cancelled": "අවලංගු"
+    },
+    "paymentStatuses": { "unpaid": "ගෙවා නැත", "partial": "අර්ධ", "paid": "ගෙවා ඇත" }
+  },
+  "inventory": {
+    "title": "තොගය",
+    "addProduct": "නිෂ්පාදනයක් එකතු කරන්න",
+    "name": "නම", "sku": "SKU", "category": "කාණ්ඩය",
+    "sellingPrice": "විකුණුම් මිල", "costPrice": "පිරිවැය",
+    "stock": "තොගය", "threshold": "අඩු තොග අනතුරු ඇඟවීම",
+    "unit": "ඒකකය", "expiry": "කල් ඉකුත් දිනය",
+    "lowStockAlert": "{{count}} අයිතම තොගයෙන් අඩු වෙමින් ඇත",
+    "outOfStock": "තොගයෙන් ගිය",
+    "lowStock": "අඩු තොගය",
+    "inStock": "තොගයේ ඇත",
+    "allCategories": "සියලු කාණ්ඩ",
+    "noItems": "තොග අයිතම නැත",
+    "adjust": "තොගය සකස් කරන්න",
+    "expiryWarning": "{{days}} දිනෙන් කල් ඉකුත් වේ"
+  },
+  "customers": {
+    "title": "ගනුදෙනුකරුවන්",
+    "addCustomer": "ගනුදෙනුකරු එකතු කරන්න",
+    "name": "නම", "phone": "දුරකථනය", "email": "ඊමේල්",
+    "address": "ලිපිනය", "district": "දිස්ත්‍රික්කය",
+    "totalSpend": "මුළු වියදම", "totalOrders": "මුළු ඇණවුම්",
+    "lastVisit": "අවසන් සංචාරය", "tags": "ලේබල",
+    "followUp": "පසු විපරම",
+    "setReminder": "මතක් කිරීමක් සකසන්න",
+    "reminderDate": "මතක් කිරීමේ දිනය", "reminderNote": "සටහන",
+    "whatsappOptIn": "WhatsApp දැනුම්දීම්",
+    "smsOptIn": "SMS දැනුම්දීම්",
+    "purchaseHistory": "මිලදී ගැනීමේ ඉතිහාසය",
+    "noCustomers": "ගනුදෙනුකරුවන් නැත",
+    "dueToday": "අද නියමිත", "overdue": "ප්‍රමාදය",
+    "tags_": {
+      "vip": "VIP", "regular": "නිතිපතා", "new": "නව",
+      "inactive": "අක්‍රිය", "wholesale": "තොග"
+    }
+  },
+  "promotions": {
+    "title": "ප්‍රවර්ධන",
+    "createPromotion": "ප්‍රවර්ධනය සාදන්න",
+    "shareViaWhatsApp": "WhatsApp හරහා බෙදා ගන්න",
+    "shareViaSMS": "SMS හරහා බෙදා ගන්න",
+    "validUntil": "වලංගු කාලය",
+    "validFrom": "ආරම්භ දිනය",
+    "type": "ප්‍රවර්ධන වර්ගය",
+    "message": "පණිවිඩය",
+    "preview": "පෙරදර්ශනය",
+    "active": "ක්‍රියාකාරී",
+    "expired": "කල් ඉකුත්",
+    "noPromotions": "ප්‍රවර්ධන නැත",
+    "types": {
+      "percentage_discount": "% වට්ටම",
+      "fixed_discount": "ස්ථිර වට්ටම",
+      "buy_x_get_y": "X කිනිම Y ලබා ගන්න",
+      "announcement": "නිවේදනය",
+      "seasonal": "සෘතු දීමනාව"
+    }
+  },
+  "payments": {
+    "title": "ගෙවීම්",
+    "recordPayment": "ගෙවීම වාර්තා කරන්න",
+    "amount": "මුදල",
+    "method": "ගෙවීම් ක්‍රමය",
+    "reference": "යොමු අංකය",
+    "date": "දිනය",
+    "totalRevenue": "මුළු ආදායම",
+    "pendingAmount": "ශේෂ මුදල",
+    "today": "අද", "week": "මෙම සතිය", "month": "මෙම මාසය",
+    "noPayments": "ගෙවීම් නැත",
+    "methods": {
+      "cash": "මුදල්", "card": "කාඩ්", "bank_transfer": "බැංකු හුවමාරුව",
+      "ez_cash": "EZ Cash", "mcash": "mCash", "credit": "ණය"
+    }
+  },
+  "common": {
+    "save": "සුරකින්න", "cancel": "අවලංගු", "delete": "මකන්න", "edit": "සංස්කරණය",
+    "search": "සොයන්න", "filter": "පෙරහන", "loading": "පූරණය...",
+    "noData": "දත්ත නොමැත", "currency": "රු.",
+    "confirm": "තහවුරු", "close": "වසන්න", "back": "ආපසු",
+    "phone": "දුරකථනය", "notes": "සටහන්", "actions": "ක්‍රියා",
+    "createdAt": "සාදන ලදී", "all": "සියල්ල"
+  }
+}
