@@ -1,0 +1,141 @@
+{
+  "app": { "name": "SME மேலாளர்", "tagline": "உங்கள் வணிகத்தை வளர்க்கவும்" },
+  "businessTypes": {
+    "shop": "கடை", "salon": "சலூன்", "pharmacy": "மருந்தகம்",
+    "boutique": "பூட்டீக்", "cafe": "கஃபே"
+  },
+  "nav": {
+    "dashboard": "முகப்பு", "orders": "ஆர்டர்கள்", "inventory": "சரக்கு",
+    "customers": "வாடிக்கையாளர்கள்", "promotions": "விளம்பரங்கள்", "payments": "கட்டணங்கள்",
+    "settings": "அமைப்புகள்"
+  },
+  "onboarding": {
+    "selectLanguage": "மொழியை தேர்ந்தெடுக்கவும்",
+    "selectBusiness": "நீங்கள் நடத்தும் வணிகம் என்ன?",
+    "enterName": "உங்கள் வணிக பெயர் என்ன?",
+    "namePlaceholder": "எ.கா. நிமல் வன்பொருள் கடை",
+    "letsGo": "தொடங்குவோம்!",
+    "welcome": "SME மேலாளருக்கு வரவேற்கிறோம்"
+  },
+  "dashboard": {
+    "title": "முகப்பு",
+    "todayRevenue": "இன்றைய வருவாய்",
+    "totalOrders": "இன்றைய ஆர்டர்கள்",
+    "lowStockItems": "குறைந்த சரக்கு",
+    "pendingPayments": "நிலுவை கட்டணங்கள்",
+    "recentOrders": "சமீபத்திய ஆர்டர்கள்",
+    "stockAlerts": "சரக்கு எச்சரிக்கைகள்",
+    "followUps": "தொடர்பு நினைவூட்டல்கள்",
+    "viewAll": "அனைத்தும் காண",
+    "noAlerts": "அனைத்து சரக்கு அளவுகளும் நல்லவை",
+    "noFollowUps": "இன்று தொடர்பு இல்லை"
+  },
+  "orders": {
+    "title": "ஆர்டர்கள்",
+    "newOrder": "புதிய ஆர்டர்",
+    "orderNumber": "ஆர்டர் #",
+    "customer": "வாடிக்கையாளர்",
+    "total": "மொத்தம்",
+    "status": "நிலை",
+    "paymentStatus": "கட்டணம்",
+    "date": "தேதி",
+    "notes": "குறிப்புகள்",
+    "selectCustomer": "வாடிக்கையாளரை தேர்ந்தெடுக்கவும் (விருப்பமானது)",
+    "guestCustomer": "நடந்து வந்தவர்",
+    "addItem": "பொருள் சேர்க்கவும்",
+    "selectItem": "பொருளை தேர்ந்தெடுக்கவும்",
+    "quantity": "அளவு",
+    "discount": "தள்ளுபடி",
+    "subtotal": "கூட்டுத்தொகை",
+    "grandTotal": "மொத்த தொகை",
+    "paymentMethod": "கட்டண முறை",
+    "createOrder": "ஆர்டர் உருவாக்கவும்",
+    "noOrders": "ஆர்டர்கள் இல்லை",
+    "statuses": {
+      "pending": "நிலுவையில்", "confirmed": "உறுதிப்படுத்தப்பட்டது", "in_progress": "செயல்படுகிறது",
+      "completed": "முடிந்தது", "cancelled": "ரத்து செய்யப்பட்டது"
+    },
+    "paymentStatuses": { "unpaid": "செலுத்தப்படவில்லை", "partial": "பாகுதி", "paid": "செலுத்தப்பட்டது" }
+  },
+  "inventory": {
+    "title": "சரக்கு",
+    "addProduct": "தயாரிப்பு சேர்க்கவும்",
+    "name": "பெயர்", "sku": "SKU", "category": "வகை",
+    "sellingPrice": "விற்பனை விலை", "costPrice": "செலவு விலை",
+    "stock": "சரக்கு", "threshold": "குறைந்த சரக்கு எச்சரிக்கை",
+    "unit": "அலகு", "expiry": "காலாவதி தேதி",
+    "lowStockAlert": "{{count}} பொருட்கள் குறைவாக உள்ளன",
+    "outOfStock": "சரக்கு இல்லை",
+    "lowStock": "குறைந்த சரக்கு",
+    "inStock": "சரக்கில் உள்ளது",
+    "allCategories": "அனைத்து வகைகளும்",
+    "noItems": "சரக்கு பொருட்கள் இல்லை",
+    "adjust": "சரக்கை சரிசெய்",
+    "expiryWarning": "{{days}} நாட்களில் காலாவதியாகும்"
+  },
+  "customers": {
+    "title": "வாடிக்கையாளர்கள்",
+    "addCustomer": "வாடிக்கையாளரை சேர்க்கவும்",
+    "name": "பெயர்", "phone": "தொலைபேசி", "email": "மின்னஞ்சல்",
+    "address": "முகவரி", "district": "மாவட்டம்",
+    "totalSpend": "மொத்த செலவு", "totalOrders": "மொத்த ஆர்டர்கள்",
+    "lastVisit": "கடைசி வருகை", "tags": "குறிச்சொற்கள்",
+    "followUp": "தொடர்பு",
+    "setReminder": "நினைவூட்டல் அமை",
+    "reminderDate": "நினைவூட்டல் தேதி", "reminderNote": "குறிப்பு",
+    "whatsappOptIn": "WhatsApp அறிவிப்புகள்",
+    "smsOptIn": "SMS அறிவிப்புகள்",
+    "purchaseHistory": "கொள்முதல் வரலாறு",
+    "noCustomers": "வாடிக்கையாளர்கள் இல்லை",
+    "dueToday": "இன்று நிலுவை", "overdue": "தாமதம்",
+    "tags_": {
+      "vip": "VIP", "regular": "வழக்கமான", "new": "புதிய",
+      "inactive": "செயலற்ற", "wholesale": "மொத்தவிற்பனை"
+    }
+  },
+  "promotions": {
+    "title": "விளம்பரங்கள்",
+    "createPromotion": "விளம்பரம் உருவாக்கவும்",
+    "shareViaWhatsApp": "WhatsApp மூலம் பகிரவும்",
+    "shareViaSMS": "SMS மூலம் பகிரவும்",
+    "validUntil": "செல்லுபடியாகும் வரை",
+    "validFrom": "தொடக்க தேதி",
+    "type": "விளம்பர வகை",
+    "message": "செய்தி",
+    "preview": "முன்னோட்டம்",
+    "active": "செயலில்",
+    "expired": "காலாவதி",
+    "noPromotions": "விளம்பரங்கள் இல்லை",
+    "types": {
+      "percentage_discount": "% தள்ளுபடி",
+      "fixed_discount": "நிலையான தள்ளுபடி",
+      "buy_x_get_y": "X வாங்க Y இலவசம்",
+      "announcement": "அறிவிப்பு",
+      "seasonal": "பருவகால சலுகை"
+    }
+  },
+  "payments": {
+    "title": "கட்டணங்கள்",
+    "recordPayment": "கட்டணம் பதிவு செய்",
+    "amount": "தொகை",
+    "method": "கட்டண முறை",
+    "reference": "குறிப்பு எண்",
+    "date": "தேதி",
+    "totalRevenue": "மொத்த வருவாய்",
+    "pendingAmount": "நிலுவை தொகை",
+    "today": "இன்று", "week": "இந்த வாரம்", "month": "இந்த மாதம்",
+    "noPayments": "கட்டணங்கள் இல்லை",
+    "methods": {
+      "cash": "பணம்", "card": "கார்டு", "bank_transfer": "வங்கி பரிமாற்றம்",
+      "ez_cash": "EZ Cash", "mcash": "mCash", "credit": "கடன்"
+    }
+  },
+  "common": {
+    "save": "சேமி", "cancel": "ரத்து", "delete": "நீக்கு", "edit": "திருத்து",
+    "search": "தேடு", "filter": "வடிகட்டு", "loading": "ஏற்றுகிறது...",
+    "noData": "தரவு இல்லை", "currency": "ரூ.",
+    "confirm": "உறுதிப்படுத்து", "close": "மூடு", "back": "திரும்பு",
+    "phone": "தொலைபேசி", "notes": "குறிப்புகள்", "actions": "செயல்கள்",
+    "createdAt": "உருவாக்கப்பட்டது", "all": "அனைத்தும்"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "app": { "name": "SME Manager", "tagline": "Grow your business" },
+  "businessTypes": {
+    "shop": "Shop", "salon": "Salon", "pharmacy": "Pharmacy",
+    "boutique": "Boutique", "cafe": "Café"
+  },
+  "nav": {
+    "dashboard": "Dashboard", "orders": "Orders", "inventory": "Inventory",
+    "customers": "Customers", "promotions": "Promotions", "payments": "Payments",
+    "settings": "Settings"
+  },
+  "onboarding": {
+    "selectLanguage": "Select Language",
+    "selectBusiness": "What type of business do you run?",
+    "enterName": "What's your business name?",
+    "namePlaceholder": "e.g. Nimal's Hardware Shop",
+    "letsGo": "Let's Go!",
+    "welcome": "Welcome to SME Manager"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "todayRevenue": "Today's Revenue",
+    "totalOrders": "Today's Orders",
+    "lowStockItems": "Low Stock Items",
+    "pendingPayments": "Pending Payments",
+    "recentOrders": "Recent Orders",
+    "stockAlerts": "Stock Alerts",
+    "followUps": "Follow-up Reminders",
+    "viewAll": "View All",
+    "noAlerts": "All stock levels are healthy",
+    "noFollowUps": "No follow-ups due today"
+  },
+  "orders": {
+    "title": "Orders",
+    "newOrder": "New Order",
+    "orderNumber": "Order #",
+    "customer": "Customer",
+    "total": "Total",
+    "status": "Status",
+    "paymentStatus": "Payment",
+    "date": "Date",
+    "notes": "Notes",
+    "selectCustomer": "Select customer (optional)",
+    "guestCustomer": "Walk-in / Guest",
+    "addItem": "Add Item",
+    "selectItem": "Select item",
+    "quantity": "Qty",
+    "discount": "Discount",
+    "subtotal": "Subtotal",
+    "grandTotal": "Grand Total",
+    "paymentMethod": "Payment Method",
+    "createOrder": "Create Order",
+    "noOrders": "No orders yet",
+    "statuses": {
+      "pending": "Pending", "confirmed": "Confirmed", "in_progress": "In Progress",
+      "completed": "Completed", "cancelled": "Cancelled"
+    },
+    "paymentStatuses": { "unpaid": "Unpaid", "partial": "Partial", "paid": "Paid" }
+  },
+  "inventory": {
+    "title": "Inventory",
+    "addProduct": "Add Product",
+    "name": "Name", "sku": "SKU", "category": "Category",
+    "sellingPrice": "Selling Price", "costPrice": "Cost Price",
+    "stock": "Stock", "threshold": "Low Stock Alert",
+    "unit": "Unit", "expiry": "Expiry Date",
+    "lowStockAlert": "{{count}} items are running low on stock",
+    "outOfStock": "Out of Stock",
+    "lowStock": "Low Stock",
+    "inStock": "In Stock",
+    "allCategories": "All Categories",
+    "noItems": "No inventory items yet",
+    "adjust": "Adjust Stock",
+    "expiryWarning": "Expires in {{days}} days"
+  },
+  "customers": {
+    "title": "Customers",
+    "addCustomer": "Add Customer",
+    "name": "Name", "phone": "Phone", "email": "Email",
+    "address": "Address", "district": "District",
+    "totalSpend": "Total Spend", "totalOrders": "Total Orders",
+    "lastVisit": "Last Visit", "tags": "Tags",
+    "followUp": "Follow Up",
+    "setReminder": "Set Reminder",
+    "reminderDate": "Reminder Date", "reminderNote": "Note",
+    "whatsappOptIn": "WhatsApp Notifications",
+    "smsOptIn": "SMS Notifications",
+    "purchaseHistory": "Purchase History",
+    "noCustomers": "No customers yet",
+    "dueToday": "Due Today", "overdue": "Overdue",
+    "tags_": {
+      "vip": "VIP", "regular": "Regular", "new": "New",
+      "inactive": "Inactive", "wholesale": "Wholesale"
+    }
+  },
+  "promotions": {
+    "title": "Promotions",
+    "createPromotion": "Create Promotion",
+    "shareViaWhatsApp": "Share via WhatsApp",
+    "shareViaSMS": "Share via SMS",
+    "validUntil": "Valid Until",
+    "validFrom": "Valid From",
+    "type": "Promotion Type",
+    "message": "Message",
+    "preview": "Preview",
+    "active": "Active",
+    "expired": "Expired",
+    "noPromotions": "No promotions yet",
+    "types": {
+      "percentage_discount": "% Discount",
+      "fixed_discount": "Fixed Discount",
+      "buy_x_get_y": "Buy X Get Y",
+      "announcement": "Announcement",
+      "seasonal": "Seasonal Offer"
+    }
+  },
+  "payments": {
+    "title": "Payments",
+    "recordPayment": "Record Payment",
+    "amount": "Amount",
+    "method": "Payment Method",
+    "reference": "Reference No.",
+    "date": "Date",
+    "totalRevenue": "Total Revenue",
+    "pendingAmount": "Pending Amount",
+    "today": "Today", "week": "This Week", "month": "This Month",
+    "noPayments": "No payments recorded",
+    "methods": {
+      "cash": "Cash", "card": "Card", "bank_transfer": "Bank Transfer",
+      "ez_cash": "EZ Cash", "mcash": "mCash", "credit": "Credit"
+    }
+  },
+  "common": {
+    "save": "Save", "cancel": "Cancel", "delete": "Delete", "edit": "Edit",
+    "search": "Search", "filter": "Filter", "loading": "Loading...",
+    "noData": "No records found", "currency": "LKR",
+    "confirm": "Confirm", "close": "Close", "back": "Back",
+    "phone": "Phone", "notes": "Notes", "actions": "Actions",
+    "createdAt": "Created", "all": "All"
+  }
+}
