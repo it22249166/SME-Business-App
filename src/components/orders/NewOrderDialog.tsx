@@ -5,7 +5,8 @@ import { Plus, Minus, X, ShoppingCart } from 'lucide-react';
 import { Order, OrderItem, InventoryItem, Customer, PaymentMethod } from '@/types';
 import { useTranslation } from '@/hooks/useTranslation';
 import { CurrencyDisplay } from '@/components/shared/CurrencyDisplay';
-import { generateId, centsToDisplay } from '@/lib/utils';
+import { generateId } from '@/lib/utils';
+import { centsToDisplay } from '@/lib/currency';
 
 interface Props {
   inventory: InventoryItem[];
@@ -57,7 +58,7 @@ export function NewOrderDialog({ inventory, customers, businessType, onCreate, o
 
   const handleCreate = () => {
     if (items.length === 0) return;
-    const customerName = selectedCustomer?.name ?? guestName || 'Walk-in';
+    const customerName = (selectedCustomer?.name ?? guestName) || 'Walk-in';
     const customerPhone = selectedCustomer?.phone ?? guestPhone;
     onCreate({
       customerId: customerId || null,
@@ -201,11 +202,10 @@ export function NewOrderDialog({ inventory, customers, businessType, onCreate, o
                 <button
                   key={method}
                   onClick={() => setPaymentMethod(method)}
-                  className={`py-2 px-3 rounded-lg text-xs font-medium border transition-colors ${
-                    paymentMethod === method
-                      ? 'bg-blue-600 text-white border-blue-600'
-                      : 'bg-white text-gray-700 border-gray-300 hover:border-gray-400'
-                  }`}
+                  className={`py-2 px-3 rounded-lg text-xs font-medium border transition-colors ${paymentMethod === method
+                    ? 'bg-blue-600 text-white border-blue-600'
+                    : 'bg-white text-gray-700 border-gray-300 hover:border-gray-400'
+                    }`}
                 >
                   {t(`payments.methods.${method}`)}
                 </button>
